@@ -26,16 +26,6 @@ This project is designed to demonstrate fundamental programming concepts like fi
 
 ---
 
-## 📂 Project Structure
-
-student_management_system/
-│
-├── main.py        # Main application logic
-├── data.json      # Stores student data
-└── README.md      # Project documentation
-
----
-
 ## 📌 Future Improvements
 
 * Add graphical user interface (GUI)
