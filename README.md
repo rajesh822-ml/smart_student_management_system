@@ -36,27 +36,6 @@ student_management_system/
 
 ---
 
-## ▶️ How to Run the Project
-
-1. Install Python on your system
-2. Download or clone this repository
-3. Open terminal in project folder
-4. Run the following command:
-
-   python main.py
-
----
-
-## 🎯 Learning Outcomes
-
-* Understanding of Python basics
-* Working with lists and dictionaries
-* File handling using JSON
-* Building CLI-based applications
-* Writing clean and structured code
-
----
-
 ## 📌 Future Improvements
 
 * Add graphical user interface (GUI)
@@ -68,7 +47,7 @@ student_management_system/
 
 ## 👨‍💻 Author
 
-Your Name
+boda rajesh
 
 ---
 
