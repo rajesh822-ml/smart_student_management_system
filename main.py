@@ -21,13 +21,11 @@ def add_student(students):
     name = input("Enter name: ")
     age = input("Enter age: ")
     roll = input("Enter roll number: ")
-    mobile=input("Enter mobile.no:")
 
     student = {
         "name": name,
         "age": age,
-        "roll": roll,
-        "mobile":mobile
+        "roll": roll
     }
 
     students.append(student)
@@ -45,10 +43,10 @@ def view_students(students):
 
 # Search student
 def search_student(students):
-    mobile = input("Enter mobile number to search: ")
+    roll = input("Enter roll number to search: ")
 
     for student in students:
-        if student["mobile"] == mobile:
+        if student["roll"] == roll:
             print("Student found:", student)
             return
 
@@ -75,7 +73,6 @@ def update_student(students):
         if student["roll"] == roll:
             student["name"] = input("Enter new name: ")
             student["age"] = input("Enter new age: ")
-            student["mobile"]=input("Enter new mobile:")
             save_data(students)
             print("Student updated!")
             return
